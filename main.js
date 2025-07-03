@@ -25,7 +25,7 @@ function createWindow() {
   });
 
   // Load the start URL
-  mainWindow.loadURL('http://localhost:5173/');
+  mainWindow.loadURL("http://localhost:5173/");
 }
 
 app.whenReady().then(createWindow);

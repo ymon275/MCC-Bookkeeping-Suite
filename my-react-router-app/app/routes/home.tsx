@@ -1,13 +1,19 @@
 import type { Route } from "./+types/home";
-import { Welcome } from "../welcome/welcome";
+import { Welcome } from "../components/welcome";
+import { NavigationBar } from "../components/navigation";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
+    { title: "MCC Utility" },
+    { name: "description", content: "Welcome to MCC Utility!" },
   ];
 }
 
 export default function Home() {
-  return <Welcome />;
+  return (
+    <div>
+      <NavigationBar />
+      <Welcome />
+    </div>
+  );
 }

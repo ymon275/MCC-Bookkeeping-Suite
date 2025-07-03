@@ -23,13 +23,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron ."
   },
-  "dependencies": {
-    "@popperjs/core": "^2.11.8",
-    "bootstrap": "^5.3.7",
-    "react-bootstrap": "^2.10.10",
-    "react-router-dom": "^6.30.1"
-  },
   "devDependencies": {
     "sass": "^1.89.2"
+  },
+  "dependencies": {
+    "electron": "^37.1.0"
   }
 }
